@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/custom.css">
+    <title>Регистриране на пратка</title>
+</head>
+<body>
+    <div class="overflow-scroll">
+        <div class="logo-position">
+            <img src="../src/logo.jpeg" alt="logo 'Pick Pack'" class="logo">
+        </div>
+        <div class="registration position-absolute bottom-0 start-50 translate-middle">
+            <form>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <h1>Регистриране на пратка</h1>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-sm-3 mt-2">
+                            <label for="phone">Подател телефон:</label>
+                        </div>
+                        <div class="col-sm-9 mt-2">
+                            <input type="number" name="phone" id="phone" required>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-sm-3 mt-2">
+                            <label for="phone">Получател телефон:</label>
+                        </div>
+                        <div class="col-sm-9 mt-2">
+                            <input type="number" name="phone" id="phone" required>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-sm-3 mt-2">
+                            <label for="address">Адрес за доставка:</label>
+                        </div>
+                        <div class="col-sm-9 mt-2">
+                            <input type="text" name="address" id="address" required>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-sm-3 mt-2">
+                            <label for="weight">Тегло:</label>
+                        </div>
+                        <div class="col-sm-9 mt-2">
+                            <input type="text" name="weight" id="weight" required>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between">
+                        <div class="col-sm-3">
+                            <button type="button" onclick="goBack()">Назад</button>
+                        </div>
+                        <div class="col-sm-5">
+                            <button type="submit" value="Submit">Запиши</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script src="../js/js-file.js"></script>
+    </div>
+</body>
+</html>

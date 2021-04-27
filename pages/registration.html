@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/custom.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <div class="overflow-scroll">
+        <div class="logo-position">
+            <img src="../src/logo.jpeg" alt="logo 'Pick Pack'" class="logo">
+        </div>
+        <div class="registration position-absolute bottom-0 start-50 translate-middle">
+            <form>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <h1>Регистрация</h1>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-sm-3 mt-2">
+                            <label for="fname">Име:</label>
+                        </div>
+                        <div class="col-sm-9 mt-2">
+                            <input type="text" name="fname" id="fname" required>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-sm-3 mt-2">
+                            <label for="lname">Фамилия:</label>
+                        </div>
+                        <div class="col-sm-9 mt-2">
+                            <input type="text" name="lname" id="lname" required>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-sm-3 mt-2">
+                            <label for="email">E-mail:</label>
+                        </div>
+                        <div class="col-sm-9 mt-2">
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-sm-3 mt-2">
+                            <label for="pwd">Парола:</label>
+                        </div>
+                        <div class="col-sm-9 mt-2">
+                            <input type="password" name="pwd" id="pwd" required>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-sm-3 mt-2">
+                            <label for="pwd">Потвърди Парола:</label>
+                        </div>
+                        <div class="col-sm-9 mt-2">
+                            <input type="password" name="pwd" id="pwd" required>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-sm-3 mt-2">
+                            <label for="phone">Телефонен номер:</label>
+                        </div>
+                        <div class="col-sm-9 mt-2">
+                            <input type="number" name="phone" id="phone" required>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-sm-3 mt-2">
+                            <label for="role">Роля:</label>
+                        </div>
+                        <div class="col-sm-9 mt-2">
+                            <select name="role" id="role" onchange="check(this);" required>
+                                <option value=""></option>
+                                <option value="клиент">Клиент</option>
+                                <option value="офис-служител">Офис-служител</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="roleSelect">
+                        <div class="row align-items-center">
+                            <div class="col-sm-3 mt-2">
+                                <label for="rolenum">Служебен номер:</label>
+                            </div>
+                            <div class="col-sm-9 mt-2">
+                                <input type="number" name="rolenum" id="rolenum" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-sm-3">
+                            <input type="checkbox" name="checkbox" value="check" id="agree" required/>
+                        </div>
+                            <div class="col-sm-9">
+                                <label for="agree">Запознат съм с <a href="terms-and-conditions.html"><b><u>правилата и условията</u></b>.</a>
+                                </label>
+                            </div>
+                    </div>
+                    <div class="row justify-content-between">
+                        <div class="col-sm-3">
+                            <button type="button" onclick="goBack()">Назад</button>
+                        </div>
+                        <div class="col-sm-5">
+                            <button type="submit" value="Submit">Регистрация</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script src="../js/js-file.js"></script>
+    </div>
+</body>
+</html>

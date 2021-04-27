@@ -1,0 +1,96 @@
+body{
+    background: linear-gradient(110deg, #FFCC80 60%, #B0BEC5 60%);
+}
+
+.logo-position{
+    padding: 20px;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+}
+
+.login, .registration, .terms, .my-profile, .package-registered{
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+}
+
+h1, h4, p{
+    color: #90A4AE;
+    text-align: center;
+}
+
+h3{
+    color: #90A4AE;
+}
+
+label{
+    color: #90A4AE;
+    text-align: left;
+}
+
+input{
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    cursor: pointer;
+    color: #90A4AE;
+}
+
+button{
+    width: 100%;
+    border: 2px solid #90A4AE;
+    border-radius: 3px;
+    background-color: #90A4AE;
+    color: #fff3cd;
+    padding: 5px 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background-color: #fff3cd;
+    color: #90A4AE;
+}
+
+a{
+    color: #90A4AE;
+    display: inline-block;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fff3cd;
+}
+
+select{
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    color: #90A4AE;
+}
+
+#roleSelect{
+    display: none;
+}
+
+table, th, tr, td{
+    color: #90A4AE;
+}
+
