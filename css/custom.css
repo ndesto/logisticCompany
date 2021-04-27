@@ -12,7 +12,7 @@ body{
     border-radius: 15px;
 }
 
-.login, .registration, .terms, .my-profile, .package-registered{
+.login, .registration, .terms, .my-profile, .package-registered, .receive-package{
     left: 50%;
     position: absolute;
     top: 45%;
